@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+</head>
+<body>
+  <!-- Ordered List with Roman Numerals -->
+  <h2>Steps to Complete Registration</h2>
+  <ol type="I">
+    <li>Fill out the registration form.</li>
+    <li>Verify your email address.</li>
+    <li>Submit the form.</li>
+  </ol>
+
+  <!-- External Image from Pexels -->
+  <h2>Sample Image</h2>
+  <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Sample Image from Pexels" width="400">
+
+  <!-- Table of 5 Contacts -->
+  <h2>Contact List</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Doe</td>
+        <td>123 Main St, City</td>
+        <td>123-456-7890</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>456 Elm St, Town</td>
+        <td>987-654-3210</td>
+        <td>jane@example.com</td>
+      </tr>
+      <tr>
+        <td>Alice Johnson</td>
+        <td>789 Oak St, Village</td>
+        <td>555-123-4567</td>
+        <td>alice@example.com</td>
+      </tr>
+      <tr>
+        <td>Bob Brown</td>
+        <td>321 Pine St, Hamlet</td>
+        <td>444-555-6666</td>
+        <td>bob@example.com</td>
+      </tr>
+      <tr>
+        <td>Charlie Davis</td>
+        <td>654 Maple St, Borough</td>
+        <td>777-888-9999</td>
+        <td>charlie@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Registration Form -->
+  <h2>Registration Form</h2>
+  <form action="#" method="post">
+    <!-- Name Field -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <!-- Email Field -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password Field -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+    <!-- Date Field -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Dropdown Menu -->
+    <label for="country">Country:</label><br>
+    <select id="country" name="country" required>
+      <option value="">Select your country</option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="uk">UK</option>
+      <option value="australia">Australia</option>
+    </select><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label><br><br>
+
+    <!-- Checkboxes -->
+    <label>Interests:</label><br>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label><br>
+    <input type="checkbox" id="reading" name="interests" value="reading">
+    <label for="reading">Reading</label><br>
+    <input type="checkbox" id="traveling" name="interests" value="traveling">
+    <label for="traveling">Traveling</label><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
